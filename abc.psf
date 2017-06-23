@@ -420,6 +420,7 @@ function Update-ListBox
 		$Append
 	)
 	Write-Host $checkedlistbox1.Items
+	Write-Host "GitHubTest"
 	
 	if (-not $Append)
 	{
