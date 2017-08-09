@@ -1333,7 +1333,7 @@ EEIIIYQQQgghhBBCCCGEEEIIIS8i1679A84VDCm5ZnlKAAAAAElFTkSuQmCC</Preview>
     <Object type="System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="picturebox1" children="Controls">
       <Property name="BackgroundImage">
         <Binary>iVBORw0KGgoAAAANSUhEUgAAAC4AAAAWCAYAAAC/kK73AAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
-AAAOwAAADsABataJCQAAA7VJREFUWEfVlskrvlEUx80hY2QeYmFKmZKUkEwZi0hENoaFv8GGsrFQ
+AAAOvQAADr0BR/uQrQAAA7VJREFUWEfVlskrvlEUx80hY2QeYmFKmZKUkEwZi0hENoaFv8GGsrFQ
 siKSlBQLyrSxISUboswLkmlhyjx8vef0DPd53gfvz69f/d5vfeKce869532ec+99bEyClWLotAYM
 ndaAatjb2yMiIgKRkZH8V094eDjc3NzEZENcXFwQHByM0NBQhbCwMAQGBprFurq6msWK0Jo+Pj5m
 eSZUgyY/PT3Fw8MD7u7uzLi9vcXJyQkWFxeRnZ0tTsJUVlZiaWkJR0dHuLq6wvX1tcL9/T3W1taU
@@ -1485,7 +1485,7 @@ $formScrumData_Load={
 
 $btnEngineers_Click={
 	#TODO: Place custom script here
-	$ResultEngineers = Get-Random -input "Mircea Puiu", "Dave Valentine", "Eric Miller", "Charles Stock", "Arie Blonk", "Ton Dorland", "Rogier van Nahuijs" -count 10 | % { "$_`r`n" }
+	$ResultEngineers = Get-Random -input "Mircea Puiu", "Arie Blonk", "Ton Dorland", "Rogier van Nahuijs" -count 20 | % { "$_`r`n" }
 	[system.Windows.Forms.MessageBox]::show("$ResultEngineers", "Random list of engineers",
 	[system.Windows.Forms.MessageBoxButtons]::OK,
 	[system.Windows.Forms.MessageBoxIcon]::Information)
@@ -1493,7 +1493,7 @@ $btnEngineers_Click={
 
 $btnTesters_Click={
 	#TODO: Place custom script here
-	$ResultTesters = Get-Random -input "Paul Usurelu", "Simion Preda", "Bogdan Duca", "Rogier van Nahuijs", "Sander Sietsma" -count 10 | % { "$_`r`n" }
+	$ResultTesters = Get-Random -input "Paul Usurelu", "Simion Preda", "Bogdan Duca", "Rogier van Nahuijs", "Sander Sietsma", "Cristina Serban", "Levi Vaessen", "Teodor Stoica", "Liviu Navacioiu", "Andrei Puhacel" -count 20 | % { "$_`r`n" }
 	[system.Windows.Forms.MessageBox]::show("$ResultTesters", "Random list of testers",
 	[system.Windows.Forms.MessageBoxButtons]::OK,
 	[system.Windows.Forms.MessageBoxIcon]::Information)
@@ -1530,7 +1530,7 @@ $linklabelSafari_LinkClicked=[System.Windows.Forms.LinkLabelLinkClickedEventHand
 }
 
 ]]></Code>
-  <Mode>0</Mode>
+  <Mode>1</Mode>
   <Assemblies>
     <Assembly>mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
     <Assembly>System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Assembly>
